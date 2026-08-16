@@ -8,6 +8,9 @@ struct book
 };
 int main()
 {
+    int x=10;
+    int *p = &x;
+    printf("%d\n",*p);
     struct book book1,book2;
 
     book1.id=101;

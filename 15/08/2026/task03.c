@@ -3,8 +3,9 @@
 #include <string.h>
 int main()
 {
-    int *num;
-    num=malloc(sizeof(int)*5);  // garbage value
-    printf("%d\n",num);
+    int num[4]={2,4,6,8};
+    //num=malloc(sizeof(int)*5);  // garbage value
+    printf("%d\n",&num[2]);
+
     return 0;
 }
