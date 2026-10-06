@@ -153,7 +153,7 @@ struct node* deleteposition(struct node *head, int pos)
     
     free(temp);
     return head;
-    }
+}
 
 int main()
 {
